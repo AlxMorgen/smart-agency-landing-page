@@ -11,9 +11,9 @@
   </head>
   <body>
       <nav class="navbar sticky-top navbar-light">
-          <div class="container">
+          <div class="container" style="margin-left: 138px;"> 
               <a href="" class="navbar-brand"><orange>S</orange>mart</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" style="margin-right: 70px;">
                   <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarContent">
@@ -53,22 +53,18 @@
         </div>
         <div class="container-fluid m-0" style="background-color: #f5f5f5;">
           <div class="message col">
-            <form>
-              <h1 class="message-title">Send A Message</h1>
+            <form style="text-align: center;">
+              <h1 class="message-title"><orange>Send</orange> A Message</h1>
               <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                <input type="text" placeholder="Your Name" class="form-control" id="exampleInputName1" aria-describedby="emailHelp">
               </div>
               <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+                <input type="email" placeholder="Your Email"class="form-control" id="exampleInputEmail1">
               </div>
               <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                <input type="text" class="text textmessage" id="exampleMessage1" placeholder="Your Message">
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary btnmessage">Send Message &#8594</button>
             </form>
           </div>  
         </div>
