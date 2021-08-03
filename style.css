@@ -17,6 +17,10 @@ p {
     padding-top: 25px;
 }
 
+.grid {
+    display: grid;
+}
+
 .titletext {
     padding-top: 0;
 }
@@ -232,6 +236,49 @@ padding-top: 150px;
     margin-left: 0px;
 }
 
+/* Services */
+
+.imgser {
+    padding: 27px 17px 9px 32px;
+    box-shadow: 0 0 30px rgb(0 0 0 / 50%);
+    margin-top: 8px;
+}
+
+.imgpar {
+    padding: 11px 6px 0px 20px;
+    background-color: #fbfbfb;
+    margin-top: 8px;
+}
+
+.imgsearch {
+    background-color: #fbfbfb;
+    padding: 20px 5px 16px 17px;
+    margin-top: 8px;
+}
+
+.noshad {
+    box-shadow: none;
+    background-color: #fbfbfb;
+}
+
+.modern {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.modern::after {
+    content: " ";
+    border-bottom: 4px solid #ff5c36;
+    display: block;
+    width: 57px;
+    margin-top: 10px;
+
+}
+
+.desk {
+    text-align: left;
+    max-width: 520px;
+}
 
 @media (max-width: 700px) {
 .message {
